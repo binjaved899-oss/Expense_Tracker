@@ -1,0 +1,23 @@
+{
+  "totalFiles": 24,
+  "totalRealLoc": 2263,
+  "budgetFloor": 8000,
+  "budgetCeiling": 12000,
+  "withinRange": false,
+  "byDirectory": {
+    ".github": 19,
+    "docker-compose.yml": 18,
+    "Dockerfile": 16,
+    "eslint.config.mjs": 26,
+    "index.html": 13,
+    "package.json": 60,
+    "playwright.config.ts": 32,
+    "postcss.config.cjs": 6,
+    "src": 1720,
+    "tailwind.config.cjs": 13,
+    "tests": 265,
+    "tsconfig.json": 25,
+    "vite.config.ts": 25,
+    "vitest.config.ts": 25
+  }
+}
