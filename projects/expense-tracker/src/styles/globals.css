@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'InterLocal';
+  src: url('/assets/fonts/InterLocal-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'InterLocal';
+  src: url('/assets/fonts/InterLocal-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrainsMonoLocal';
+  src: url('/assets/fonts/JetBrainsMonoLocal-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --bg-primary: rgb(255, 255, 255);
+  --bg-secondary: rgb(248, 250, 252);
+  --bg-tertiary: rgb(241, 245, 249);
+  --text-primary: rgb(15, 23, 42);
+  --text-secondary: rgb(51, 65, 85);
+  --text-muted: rgb(71, 85, 105);
+  --border-default: rgb(203, 213, 225);
+  --border-strong: rgb(100, 116, 139);
+  --accent-primary: rgb(15, 118, 110);
+  --accent-hover: rgb(17, 94, 89);
+  --accent-text: rgb(255, 255, 255);
+  --danger: rgb(185, 28, 28);
+  --danger-bg: rgb(254, 242, 242);
+  --success: rgb(21, 128, 61);
+  --success-bg: rgb(240, 253, 244);
+  --warning: rgb(180, 83, 9);
+  --warning-bg: rgb(255, 251, 235);
+  --focus-ring: rgb(13, 148, 136);
+  --chart-income: rgb(21, 128, 61);
+  --chart-expense: rgb(185, 28, 28);
+  --chart-net: rgb(15, 118, 110);
+  --chart-budget: rgb(3, 105, 161);
+  --chart-accent-alt: rgb(109, 40, 217);
+}
+
+[data-theme='dark'] {
+  --bg-primary: rgb(11, 17, 32);
+  --bg-secondary: rgb(17, 24, 39);
+  --bg-tertiary: rgb(30, 41, 59);
+  --text-primary: rgb(248, 250, 252);
+  --text-secondary: rgb(226, 232, 240);
+  --text-muted: rgb(148, 163, 184);
+  --border-default: rgb(51, 65, 85);
+  --border-strong: rgb(100, 116, 139);
+  --accent-primary: rgb(45, 212, 191);
+  --accent-hover: rgb(94, 234, 212);
+  --accent-text: rgb(11, 17, 32);
+  --danger: rgb(248, 113, 113);
+  --danger-bg: rgb(69, 10, 10);
+  --success: rgb(74, 222, 128);
+  --success-bg: rgb(5, 46, 22);
+  --warning: rgb(251, 191, 36);
+  --warning-bg: rgb(69, 26, 3);
+  --focus-ring: rgb(45, 212, 191);
+  --chart-income: rgb(74, 222, 128);
+  --chart-expense: rgb(248, 113, 113);
+  --chart-net: rgb(45, 212, 191);
+  --chart-budget: rgb(56, 189, 248);
+  --chart-accent-alt: rgb(167, 139, 250);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: 'InterLocal', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

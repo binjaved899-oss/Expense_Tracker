@@ -1,0 +1,20 @@
+name: CI Quality Gates (2024 Pinned)
+on:
+  push:
+    branches: ["main", "forge/**"]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20.18.1"
+          cache: "npm"
+      - run: npm ci --prefer-offline
+      - run: npm run typecheck
+      - run: npm run lint -- --max-warnings=0
+      - run: npm test
+      - run: npm run build
