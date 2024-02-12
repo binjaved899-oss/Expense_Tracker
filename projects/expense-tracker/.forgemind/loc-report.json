@@ -1,9 +1,9 @@
 {
-  "totalFiles": 47,
-  "totalRealLoc": 7633,
+  "totalFiles": 50,
+  "totalRealLoc": 8151,
   "budgetFloor": 8000,
   "budgetCeiling": 12000,
-  "withinRange": false,
+  "withinRange": true,
   "byDirectory": {
     ".github": 19,
     "docker-compose.yml": 18,
@@ -13,9 +13,9 @@
     "package.json": 60,
     "playwright.config.ts": 33,
     "postcss.config.cjs": 6,
-    "src": 6575,
+    "src": 7038,
     "tailwind.config.cjs": 13,
-    "tests": 776,
+    "tests": 831,
     "tsconfig.json": 25,
     "vite.config.ts": 25,
     "vitest.config.ts": 25
