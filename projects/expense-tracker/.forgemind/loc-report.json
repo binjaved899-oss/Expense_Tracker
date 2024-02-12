@@ -1,6 +1,6 @@
 {
-  "totalFiles": 50,
-  "totalRealLoc": 8151,
+  "totalFiles": 55,
+  "totalRealLoc": 8797,
   "budgetFloor": 8000,
   "budgetCeiling": 12000,
   "withinRange": true,
@@ -13,9 +13,9 @@
     "package.json": 60,
     "playwright.config.ts": 33,
     "postcss.config.cjs": 6,
-    "src": 7038,
+    "src": 7635,
     "tailwind.config.cjs": 13,
-    "tests": 831,
+    "tests": 880,
     "tsconfig.json": 25,
     "vite.config.ts": 25,
     "vitest.config.ts": 25
